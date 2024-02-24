@@ -13,3 +13,7 @@ function ReadNames(){
 function RemoveNames(id: number){
     nameList.splice(id, 1)
 }
+
+function UpdateNames(id: number, name: string){
+    nameList.splice(id, 1, name)
+}
