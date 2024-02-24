@@ -4,3 +4,8 @@ function AddNames(name: string){
     nameList.push(name)
 }
 
+function ReadNames(){
+    nameList.forEach(name => {
+        console.log(name)
+    });
+}
