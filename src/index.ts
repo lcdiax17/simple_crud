@@ -9,3 +9,7 @@ function ReadNames(){
         console.log(name)
     });
 }
+
+function RemoveNames(id: number){
+    nameList.splice(id, 1)
+}
